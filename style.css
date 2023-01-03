@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(65, 187, 236);
+}
+
+.color-header  {
+    color:rgb(108, 105, 255)
+}
+nav a {
+    color:blue
+
+}
+a {
+    color: rgb(255, 0, 0);
+}
+.header-main{
+    color: blue;
+}
+#top{
+    color: rgb(0, 132, 255);
+}
+
