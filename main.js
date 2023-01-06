@@ -1,3 +1,6 @@
+
+
+
 const firstName = 'Konrad';
 const age = 32;
 
