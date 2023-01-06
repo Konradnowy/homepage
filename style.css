@@ -1,25 +1,35 @@
-body{
+body {
     background-color: rgb(65, 187, 236);
 }
 
-.color-header  {
-    color:rgb(108, 105, 255)
+.color-header {
+    color: rgb(108, 105, 255)
 }
-nav a {
-    color:blue
 
+nav a {
+    color: blue
 }
+
 a {
     color: rgb(255, 0, 0);
 }
 
-#top{
+#top {
     color: rgb(0, 132, 255);
 }
 
-.box{
+.box {
     background-color: aqua;
-    width: 100px;
-    height: 100px;
-    display: inline-block;
+    
+    
+    width: 800px;
+    overflow: hidden;
+}
+
+.boxsecond {
+    background-color: blueviolet;
+    height: 2000px;
+    width: 1000px;
+    overflow: auto;
+
 }
