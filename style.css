@@ -21,16 +21,14 @@ a {
 .box {
     background: rgb(206, 212, 27);
 
-    overflow: auto;
-    width: 200px;
-    height: 200px;
+    height: 1000px;
+    width: 1000px;
    
     padding: 16px;
     border: 3px solid #fff;
     border-radius: 20px;
     margin: 100px;
-    box-sizing: border-box;
-    position: relative
+   box-sizing: border-box;
 }
 
 
@@ -48,17 +46,17 @@ a {
     float: left;
     background: yellow;
     color: black;
-    min-height: 100px;
+    height: 200px;
 }
 
 .float-right {
     float: right;
     background: yellow;
     color: black;
-    height: 400px;
+   height:  400px;
 }
 
 .clear {
-    clear: left;
+    clear: both;
 
 }
