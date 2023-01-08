@@ -1,184 +1,113 @@
 <!DOCTYPE html>
 <html lang="pl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="style.css" rel="stylesheet" type="text/CSS">
-</head>
+    <link href="style.css" rel="stylesheet" type="text/CSS" />
+  </head>
 
-<body>
-    <nav>
-        <a href="index.html">Strona Główna </a>
-        <a href="nauka-htmp.html">Opis nauki </a>
-        <a href="wyzwania.html">Wyzwania</a>
-
+  <body>
+    <nav class="navigation">
+      <a class="navigation__link navigation__link--homepage" href="index.html"
+        >Strona Główna
+      </a>
+      <a class="navigation__link" href="nauka-htmp.html">Opis nauki </a>
+      <a class="navigation__link" href="wyzwania.html">Wyzwania</a>
     </nav>
 
     <main>
-        <header>
+      <header>
+        <h1 class="heading__main">Ćwiczenia z programowania</h1>
+        <a class="swap" href="#notatki">Przejście do kolejnego akapitu</a>
+      </header>
+      <section>
+        <h2 class="heading__second">O mnie</h2>
+        <p class="heading__second--text" >
+            
+            
+        <img src="1355_p2j.jpg" alt="zdjęcie2" class="float-left"> </img>
+        Wychodzę z założenia że należy przetrzewziąć kroki do zmiany w swoim
+        życiu. Z zawodu jestem Kierownikiem od spraw instalacji sanitarnych.
+        Wykonywałem prace z pasją. Lubię kontakt z ludzmi oraz organizację
+        budowy od strony materiałowej.
+        
+    </p>
 
-            <h1 class="header-main">Ćwiczenia z programowania </h1>
-            <a href="#notatki">Przejście do kolejnego akapitu</a>
-        </header>
-        <section>
-            <h2 id="top">O mnie</h2>
-            <p>
-
-                Wychodzę z założenia że należy przetrzewziąć kroki do zmiany w swoim życiu.
-                Z zawodu jestem Kierownikiem od spraw instalacji sanitarnych. Wykonywałem prace z pasją. Lubię kontakt z
-                ludzmi oraz organizację budowy od strony materiałowej.
-
-
-            </p>
-
-            <div class="float-left">
-
-
-                <img src="20210808_161520.jpg" alt="Zdjęcie" style="width:200px; height: 200px">
-            </div>
-            <div class="float-right">
-                <div class="absolute">
-                    <img src="20210808_161520.jpg" alt="Zdjęcie" style="width:200px; height: 200px">
-                </div>
-            </div>Wykozystanie float.Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum
-            Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum
-            Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum
-
-
-            <h2 class="color-header" id="notatki">Wykonywanie ruchów z pamięci.</h2>
-            <p>Rozpoczęcie programowania. Nauka wykonywania znaczników. Wplatanie w znaczniki atrybuty. Wykonywanie
-                klasowania poszczególnych atrybutów color. </p> <br>
-            <p>Wykonanie nawigacji pliku za pomocą znacznika nav oraz znacznika a - href.</p> Nauka wstawiania zdjęć za
-            pomocą znacznika img oraz atrybutów src oraz alt.
-
-
-        </section>
-        <section>
-            <h6>Link do portalu</h6>
-            <a href="https://www.facebook.com/konrad.nowoladko">Konto facebook</a>
-
-        </section>
-
-
-
-
-
-
-
-        <div class="box">
-            WTF CO ten frontend<br>
-            WTF
-            WTF
-            WTF
-
-            <div>
-                <div class="absolute">
-                    Ten produkt
-                </div>
-
-                <div class="float-right">
-                    Jak tam co tam<br>WTF4
-
-
-                </div>
-                <div class="float-left">
-                    WTF3
-
-
-                </div>
-
-
-                <div>WTF
-                    WTF
-                    WTF
-                    WTF
-                    WTF
-                    WTF
-                    WTF
-                    WTF
-                    WTF
-                    WTF
-                    WTF
-                    WTF
-                    WTF
-                    WTF
-                    WTF
-                    WTF
-                    WTF
-                    WTF
-                    WTF
-                    WTF
-                    WTF
-                    WTF
-                    WTF
-                    WTF
-                    WTF
-                    WTF
-                    WTF
-                    WTF
-                    WTF
-                    WTF
-                    WTF WTF
-                    WTF
-                    WTF
-                    WTF
-                    WTF
-                    WTF
-                    WTF
-                    WTF
-                    WTF
-                    WTF
-                    WTF
-                    WTF WTF
-                    WTF
-                    WTF
-                    WTF
-                    WTF
-                    WTF
-                    WTF
-                    WTF
-                    WTF
-                    WTF
-                    WTF
-                    WTF
-                    WTF
-                    WTF
-                    WTF
-                    WTF
-                    WTF
-                    WTF
-                    WTF
-                    WTF
-                    WTF
-                    WTF
-                    WTF
-
-                </div>
-
-
-            </div>
-            <div class="clear"></div>
+        <div class="float-left">
+          <img
+            src="20210808_161520.jpg"
+            alt="Zdjęcie"
+            style="width: 200px; height: 400px"
+          />
         </div>
+        <div class="float-right">
+          <div class="absolute">
+            <img
+              src="20210808_161520.jpg"
+              alt="Zdjęcie"
+              style="width: 200px; height: 200px"
+            />
+          </div>
+        </div>
+        Wykozystanie float.Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem
+        ipsum Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum
+        Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum
+        <article class="week-summary">
+          <h2 class="week-summary__title" id="notatki">
+            Wykonywanie ruchów z pamięci.
+          </h2>
+          <p class="week-summary__description">
+            Rozpoczęcie programowania. Nauka wykonywania znaczników. Wplatanie w
+            znaczniki atrybuty. Wykonywanie klasowania poszczególnych atrybutów
+            color.
+            
+          </p>
+       
+        </article>
+
+        <section   class="clear" > <br>
+        <h3 class="heading__third" >Co wykonywałem w tym tygodniu</h3>  
+       <p class="heading__third--text">
+            Wykonanie nawigacji pliku za pomocą znacznika nav oraz znacznika a -
+            href.
+       
+        Nauka wstawiania zdjęć za pomocą znacznika img oraz atrybutów src oraz
+        alt.
+    </p>
+      </section>
+      <section>
+        <h6>Link do portalu</h6>
+        <a href="https://www.facebook.com/konrad.nowoladko">Konto facebook</a>
+      </section>
+
+      <div class="box">
+        WTF CO ten frontend<br />
+        WTF WTF WTF
+
         <div>
-            Test
+          <div class="absolute">Ten produkt</div>
+
+          <div class="float-right">Jak tam co tam <br />WTF4</div>
+          <div class="float-left">WTF3</div>
+
+          <div>
+            TF WTF WTF WTF WTF WTF WTF WTF WTF WTF WTF WTF WTF WTF WTF WTF WTF
+            WTF WTF WTF WTF WTF WTF WTF WTF WTF WTF WTF WTF WTF WTF WTF WTF WTF
+            WTF WTF WTF WTF WTF WTF WTF WTF WTF WTF WTF WTF
+          </div>
         </div>
+        <div class="clear"></div>
+      </div>
 
-
-
-
+      <div>Test</div>
     </main>
 
     <footer>
-
-        <Strong> Proszę o uwagę.</Strong>
+      <strong> Proszę o uwagę.</strong>
     </footer>
 
     <script src="main.js"></script>
-
-
-</body>
-
+  </body>
 </html>

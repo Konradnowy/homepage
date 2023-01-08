@@ -11,3 +11,18 @@ body{
 .pepakonrad{
     color:rgb(255, 30, 0)
 }
+.navigation {
+    background: green;
+    padding: 16px;
+    border-radius: 8px;
+    }
+    .navigation__link{
+        color: #fff;
+        display: inline-block;
+        margin-right: 40px;
+        border-radius: 4px;
+    }
+    .navigation__link--homepage{
+        background: yellow;
+        color: black;
+        padding:0px 10px;
