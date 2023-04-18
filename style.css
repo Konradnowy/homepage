@@ -127,6 +127,7 @@ color: brown;
     border: 10px;
     margin: 2%;
     background: yellow;
+    border: 10px red dashed;
 
 }
 .heading__third--text{
@@ -135,5 +136,11 @@ color: brown;
     border-radius: 15px;
     margin: 0 10px;
     border: 10px #fff solid;
+    
 
+}
+
+.main{
+    max-width: 1000px;
+    margin: 0 auto;
 }
