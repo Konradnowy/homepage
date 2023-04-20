@@ -25,8 +25,10 @@ a {
     padding: 16px;
     border: 3px solid #fff;
     border-radius: 20px;
-    margin: 10px 100px;
+ 
     max-height: auto;
+    margin-left: auto;
+    margin-right: auto;
   
 }
 
@@ -96,6 +98,7 @@ color: brown;
     overflow: hidden;
     border-radius: 34px;
     padding: 0px 10px;
+    text-align: center;
     
 }
 .swap {
@@ -144,3 +147,40 @@ color: brown;
     max-width: 1000px;
     margin: 0 auto;
 }
+.heading__fourty_link{
+    color: #4299b4;
+    background: rgb(179, 186, 186);
+    opacity: 0.9;
+    text-align: center;
+    border-radius: 15px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    font-size:20pt;
+    width: fit-content;
+    padding: 50px;
+border:10px solid chocolate
+
+  
+    
+    
+    
+    
+
+    
+}
+.contener{
+    width: 300px;
+    max-height: auto;
+    height: 100px;
+    display:flex;
+    overflow-y:auto;
+    overflow-x:scroll ;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.rainbow-text {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+    color: transparent;
