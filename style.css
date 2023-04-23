@@ -154,33 +154,62 @@ color: brown;
     text-align: center;
     border-radius: 15px;
     
-    margin-left: auto;
-    margin-right: auto;
+    margin: 10px auto;
     font-size:20pt;
     width: fit-content;
     padding: 50px;
-border:10px solid chocolate
-
-  
-    
-    
-    
-    
-
+    border:10px solid chocolate
     
 }
 .contener{
-    width: 300px;
+    width: 1000px;
     max-height: auto;
     height: 100px;
     display:flex;
     overflow-y:auto;
     overflow-x:scroll ;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    box-sizing:border-box:
+
+
 
 }
 .rainbow-text {
-    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
-    color: transparent;
+    background-image: linear-gradient(to left, rgb(0, 81, 255), indigo, blue, green, yellow, orange, rgb(238, 0, 255));   
+    -webkit-background-clip: text;
+    color:transparent;
+}
+
+.contener__absolute{
+    color:blue;
+    background-color: greenyellow ;
+    padding: 20px 100px;
+    padding-
+    
+    width: 400px;
+    height: 400px;
+    position: relative;
+    
+    
+   
+
+}
+
+.position_box{
+        color: #4299b4;
+        background: red;
+        position:absolute;
+        width: 400px;
+        height: 100px;
+        overflow: scroll;
+        
+}
+.float{
+    float:left;
+    width: 100px;
+    color: yellow;
+    
+}
+.column{
+   object-position: top;
+}
