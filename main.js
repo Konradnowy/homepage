@@ -46,6 +46,15 @@ Twierdzą nam będzie każdy próg!
 Tak nam dopomóż Bóg!
 Tak nam dopomóż Bóg!`);
 
+function createContent(querySelectorContent, content)
+{
+
+const element  = document.querySelector(querySelectorContent);
+element.innerHTML = content;
+}
+
+createContent('.column--js', 'Witaj');
+
 
 
  
